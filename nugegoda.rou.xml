@@ -39,7 +39,71 @@
     <route id="piliyandala_mirihana" edges="385939357 557140714#1.13 981161567 586727241 -50133268#11 -50133268#10 -50133268#9 -50133268#8 -50133268#7 -50133268#6 -50133268#5 -50133268#4 -50133268#3 -50133268#2 -50133268#1 -23351957#9 -23351957#8 -23351957#7 -23351957#6 -23351957#5 -23351957#4 -23351957#3 -23351957#2 -23351957#1 -23351957#1.149 -23185504#6 -23185504#6.22 -23185504#4 -23185504#3 -23185504#2 -23185504#1 -23185504#0"/>
     <route id="piliyandala_nugegoda" edges="385939357 557140714#1.13 981161567 586727241 -50133268#11 -50133268#10 -50133268#9 -50133268#8 -50133268#7 -50133268#6 -50133268#5 -50133268#4 -50133268#3 -50133268#2 -50133268#1 -23351957#9 -23351957#8 -23351957#7 -23351957#6 -23351957#5 -23351957#4 -23351957#3 -23351957#2 -23351957#1 E12 -190918151#3.18 -190918151#2 -190918151#1 -190918151#0 -51064306#9 -51064306#8 -51064306#7 -E3 -E3.150 -E2 -E2.20 -51064306#2 -50070021#2 -50070021#1"/>
     <route id="piliyandala_pepiliyana_nugegoda" edges="385939357 557140714#1.13 557140715#0 557140715#1 557140715#2 23323033#2 23323033#3 23323033#4 23323033#5 23323033#6 23323033#8 23323033#9 23323033#10 23323033#11 23323033#12 161789385#1 161789385#3 161789385#4 161789385#5 161789385#6 161789385#7 161789385#8 161789385#9 557139525#1 557139526#1 557139526#2 557139526#3 557139526#4 557139526#5 557139526#6 557139526#7 E0 161789990#2 161789990#5 E1 E5 -E2.20 -51064306#2 -50070021#2 -50070021#1"/>
-    <!-- Vehicles, persons and containers (sorted by depart) -->
-    <flow id="f_0" type="motorcar" begin="0.00" route="kohuwela_piliyandala" end="3600.00" vehsPerHour="100"/>
-    <flow id="f_1" type="motorbike" begin="0.00" route="kohuwela_piliyandala" end="3600.00" vehsPerHour="200"/>
+    
+    
+    <!--flows-->
+    
+    <flow id="attidiya_kohuwela_car" type="motorcar" begin="0.00" route="attidiya_kohuwela" end="3600.00" vehsPerHour="394"/>
+    <flow id="attidiya_kohuwela_bike" type="motorbike" begin="0.00" route="attidiya_kohuwela" end="3600.00" vehsPerHour="420"/>
+    <flow id="attidiya_mirihana_car" type="motorcar" begin="0.00" route="attidiya_mirihana" end="3600.00" vehsPerHour="186"/>
+    <flow id="attidiya_mirihana_bike" type="motorbike" begin="0.00" route="attidiya_mirihana" end="3600.00" vehsPerHour="422"/>
+    <flow id="attidiya_nugegoda_car" type="motorcar" begin="0.00" route="attidiya_nugegoda" end="3600.00" vehsPerHour="292"/>
+    <flow id="attidiya_nugegoda_bike" type="motorbike" begin="0.00" route="attidiya_nugegoda" end="3600.00" vehsPerHour="383"/>
+    <flow id="attidiya_piliyandala_car" type="motorcar" begin="0.00" route="attidiya_piliyandala" end="3600.00" vehsPerHour="299"/>
+    <flow id="attidiya_piliyandala_bike" type="motorbike" begin="0.00" route="attidiya_piliyandala" end="3600.00" vehsPerHour="376"/>
+    <flow id="dehiwala_kohuwela_car" type="motorcar" begin="0.00" route="dehiwala_kohuwela" end="3600.00" vehsPerHour="393"/>
+    <flow id="dehiwala_kohuwela_bike" type="motorbike" begin="0.00" route="dehiwala_kohuwela" end="3600.00" vehsPerHour="475"/>
+    <flow id="dehiwala_nugegoda_car" type="motorcar" begin="0.00" route="dehiwala_nugegoda" end="3600.00" vehsPerHour="202"/>
+    <flow id="dehiwala_nugegoda_bike" type="motorbike" begin="0.00" route="dehiwala_nugegoda" end="3600.00" vehsPerHour="470"/>
+    <flow id="dehiwala_pannipitiya_car" type="motorcar" begin="0.00" route="dehiwala_pannipitiya" end="3600.00" vehsPerHour="258"/>
+    <flow id="dehiwala_pannipitiya_bike" type="motorbike" begin="0.00" route="dehiwala_pannipitiya" end="3600.00" vehsPerHour="276"/>
+    <flow id="delkanda_piliyandala_car" type="motorcar" begin="0.00" route="delkanda_piliyandala" end="3600.00" vehsPerHour="419"/>
+    <flow id="delkanda_piliyandala_bike" type="motorbike" begin="0.00" route="delkanda_piliyandala" end="3600.00" vehsPerHour="385"/>
+    <flow id="jubilee_post_pannipitiya_car" type="motorcar" begin="0.00" route="jubilee_post_pannipitiya" end="3600.00" vehsPerHour="205"/>
+    <flow id="jubilee_post_pannipitiya_bike" type="motorbike" begin="0.00" route="jubilee_post_pannipitiya" end="3600.00" vehsPerHour="157"/>
+    <flow id="kohuwela_attidiya_car" type="motorcar" begin="0.00" route="kohuwela_attidiya" end="3600.00" vehsPerHour="321"/>
+    <flow id="kohuwela_attidiya_bike" type="motorbike" begin="0.00" route="kohuwela_attidiya" end="3600.00" vehsPerHour="234"/>
+    <flow id="kohuwela_delkanda_car" type="motorcar" begin="0.00" route="kohuwela_delkanda" end="3600.00" vehsPerHour="298"/>
+    <flow id="kohuwela_delkanda_bike" type="motorbike" begin="0.00" route="kohuwela_delkanda" end="3600.00" vehsPerHour="246"/>
+    <flow id="kohuwela_pannipitiya_car" type="motorcar" begin="0.00" route="kohuwela_pannipitiya" end="3600.00" vehsPerHour="235"/>
+    <flow id="kohuwela_pannipitiya_bike" type="motorbike" begin="0.00" route="kohuwela_pannipitiya" end="3600.00" vehsPerHour="135"/>
+    <flow id="kohuwela_piliyandala_car" type="motorcar" begin="0.00" route="kohuwela_piliyandala" end="3600.00" vehsPerHour="340"/>
+    <flow id="kohuwela_piliyandala_bike" type="motorbike" begin="0.00" route="kohuwela_piliyandala" end="3600.00" vehsPerHour="291"/>
+    <flow id="mirihana_kohuwela_car" type="motorcar" begin="0.00" route="mirihana_kohuwela" end="3600.00" vehsPerHour="340"/>
+    <flow id="mirihana_kohuwela_bike" type="motorbike" begin="0.00" route="mirihana_kohuwela" end="3600.00" vehsPerHour="339"/>
+    <flow id="mirihana_nugegoda_car" type="motorcar" begin="0.00" route="mirihana_nugegoda" end="3600.00" vehsPerHour="195"/>
+    <flow id="mirihana_nugegoda_bike" type="motorbike" begin="0.00" route="mirihana_nugegoda" end="3600.00" vehsPerHour="150"/>
+    <flow id="mirihana_pannipitiya_car" type="motorcar" begin="0.00" route="mirihana_pannipitiya" end="3600.00" vehsPerHour="288"/>
+    <flow id="mirihana_pannipitiya_bike" type="motorbike" begin="0.00" route="mirihana_pannipitiya" end="3600.00" vehsPerHour="273"/>
+    <flow id="nugegoda_delkanda_piliyandala_car" type="motorcar" begin="0.00" route="nugegoda_delkanda_piliyandala" end="3600.00" vehsPerHour="164"/>
+    <flow id="nugegoda_delkanda_piliyandala_bike" type="motorbike" begin="0.00" route="nugegoda_delkanda_piliyandala" end="3600.00" vehsPerHour="148"/>
+    <flow id="nugegoda_jubilee_post_car" type="motorcar" begin="0.00" route="nugegoda_jubilee_post" end="3600.00" vehsPerHour="520"/>
+    <flow id="nugegoda_jubilee_post_bike" type="motorbike" begin="0.00" route="nugegoda_jubilee_post" end="3600.00" vehsPerHour="462"/>
+    <flow id="nugegoda_mirihana_car" type="motorcar" begin="0.00" route="nugegoda_mirihana" end="3600.00" vehsPerHour="341"/>
+    <flow id="nugegoda_mirihana_bike" type="motorbike" begin="0.00" route="nugegoda_mirihana" end="3600.00" vehsPerHour="313"/>
+    <flow id="nugegoda_pannipitiya_car" type="motorcar" begin="0.00" route="nugegoda_pannipitiya" end="3600.00" vehsPerHour="434"/>
+    <flow id="nugegoda_pannipitiya_bike" type="motorbike" begin="0.00" route="nugegoda_pannipitiya" end="3600.00" vehsPerHour="420"/>
+    <flow id="nugegoda_piliyandala_car" type="motorcar" begin="0.00" route="nugegoda_piliyandala" end="3600.00" vehsPerHour="404"/>
+    <flow id="nugegoda_piliyandala_bike" type="motorbike" begin="0.00" route="nugegoda_piliyandala" end="3600.00" vehsPerHour="319"/>
+    <flow id="pannipitiya_mirihana_car" type="motorcar" begin="0.00" route="pannipitiya_mirihana" end="3600.00" vehsPerHour="192"/>
+    <flow id="pannipitiya_mirihana_bike" type="motorbike" begin="0.00" route="pannipitiya_mirihana" end="3600.00" vehsPerHour="104"/>
+    <flow id="pannipitiya_nugegoda_car" type="motorcar" begin="0.00" route="pannipitiya_nugegoda" end="3600.00" vehsPerHour="343"/>
+    <flow id="pannipitiya_nugegoda_bike" type="motorbike" begin="0.00" route="pannipitiya_nugegoda" end="3600.00" vehsPerHour="266"/>
+    <flow id="pannipitiya_piliyandala_car" type="motorcar" begin="0.00" route="pannipitiya_piliyandala" end="3600.00" vehsPerHour="304"/>
+    <flow id="pannipitiya_piliyandala_bike" type="motorbike" begin="0.00" route="pannipitiya_piliyandala" end="3600.00" vehsPerHour="257"/>
+    <flow id="pepiliyana_delkanda_car" type="motorcar" begin="0.00" route="pepiliyana_delkanda" end="3600.00" vehsPerHour="250"/>
+    <flow id="pepiliyana_delkanda_bike" type="motorbike" begin="0.00" route="pepiliyana_delkanda" end="3600.00" vehsPerHour="163"/>
+    <flow id="pepiliyana_piliyandala_car" type="motorcar" begin="0.00" route="pepiliyana_piliyandala" end="3600.00" vehsPerHour="236"/>
+    <flow id="pepiliyana_piliyandala_bike" type="motorbike" begin="0.00" route="pepiliyana_piliyandala" end="3600.00" vehsPerHour="197"/>
+    <flow id="piliyandala_dehiwala_car" type="motorcar" begin="0.00" route="piliyandala_dehiwala" end="3600.00" vehsPerHour="308"/>
+    <flow id="piliyandala_dehiwala_bike" type="motorbike" begin="0.00" route="piliyandala_dehiwala" end="3600.00" vehsPerHour="209"/>
+    <flow id="piliyandala_kohuwela_car" type="motorcar" begin="0.00" route="piliyandala_kohuwela" end="3600.00" vehsPerHour="545"/>
+    <flow id="piliyandala_kohuwela_bike" type="motorbike" begin="0.00" route="piliyandala_kohuwela" end="3600.00" vehsPerHour="463"/>
+    <flow id="piliyandala_mirihana_car" type="motorcar" begin="0.00" route="piliyandala_mirihana" end="3600.00" vehsPerHour="464"/>
+    <flow id="piliyandala_mirihana_bike" type="motorbike" begin="0.00" route="piliyandala_mirihana" end="3600.00" vehsPerHour="379"/>
+    <flow id="piliyandala_nugegoda_car" type="motorcar" begin="0.00" route="piliyandala_nugegoda" end="3600.00" vehsPerHour="373"/>
+    <flow id="piliyandala_nugegoda_bike" type="motorbike" begin="0.00" route="piliyandala_nugegoda" end="3600.00" vehsPerHour="354"/>
+    <flow id="piliyandala_pepiliyana_nugegoda_car" type="motorcar" begin="0.00" route="piliyandala_pepiliyana_nugegoda" end="3600.00" vehsPerHour="445"/>
+    <flow id="piliyandala_pepiliyana_nugegoda_bike" type="motorbike" begin="0.00" route="piliyandala_pepiliyana_nugegoda" end="3600.00" vehsPerHour="368"/>
+
 </routes>
